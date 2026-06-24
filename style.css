@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #5593bf;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: aqua;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    color: blue;
+}
+
+
+/* Mobile */
+
+@media screen and (max-width:600px) {
+    body {
+        background: rgb(9, 84, 108);
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .container {
+        width: 95%;
+    }
+}
+
+
+/* Tablet */
+
+@media screen and (min-width:601px) and (max-width:992px) {
+    body {
+        background: lightgreen;
+    }
+    h1 {
+        font-size: 35px;
+    }
+}
+
+
+/* Desktop */
+
+@media screen and (min-width:993px) {
+    body {
+        background: white;
+    }
+}
